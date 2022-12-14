@@ -5,12 +5,12 @@ export const initialState: InitialState = {
   choosePlan: {
     planDetails: null,
     basicDetails: {
-      email: "gs816912@gmail.com",
-      mobile: "7888859607",
-      addressLine01: "aaa",
-      addressLine02: "gg",
-      pincode: "147001",
-      state: "Punjab",
+      email: "",
+      mobile: "",
+      addressLine01: "",
+      addressLine02: "",
+      pincode: "",
+      state: "",
     },
   },
   deductibleDetails: {

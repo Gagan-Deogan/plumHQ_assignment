@@ -17,6 +17,7 @@ export const ChoosePlan = () => {
   const [wasSubmiting, setWasSubmitting] = useState(false);
 
   const handleSelectPlan = (option: OptionType) => {
+    setErrorSelectedPlan(false);
     setSeletectedPlanOption(option);
   };
 
