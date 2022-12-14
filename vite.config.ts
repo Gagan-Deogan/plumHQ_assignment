@@ -23,9 +23,7 @@ export default defineConfig({
   },
 
   build: {
-    rollupOptions: {
-      input: "./src/main.jsx",
-    },
+    outDir: "./dist",
   },
   plugins: [reactRefresh(), tailwindcss()],
 });
